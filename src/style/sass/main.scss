@@ -1,0 +1,22 @@
+@import url(../css/reset.css);
+.rel{
+    position: relative;
+}
+
+.header{
+    background-image: url('../../img/header-bgr.png') , linear-gradient(#eb01a5, #d13531);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1024px;
+
+
+}
+.header-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1024px;
+    width: 100%;
+    background-color: #111111;
+    opacity: 0.7;
+}
