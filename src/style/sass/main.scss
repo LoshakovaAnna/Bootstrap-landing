@@ -1,15 +1,38 @@
 @import url(../css/reset.css);
+
 .rel{
     position: relative;
 }
-
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.centr-position{
+    width: 1230px;
+    margin: 0 auto;
+}
+.btn-get-started{
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+.btn-get-started:hover{
+    background-color: #111111;
+}
 .header{
-    background-image: url('../../img/header-bgr.png') , linear-gradient(#eb01a5, #d13531);  
+    background-image: url('../image/header-bgr.png') , linear-gradient(#eb01a5, #d13531);  
     background-repeat: no-repeat;
     background-size: cover;
     height: 1024px;
-
-
 }
 .header-shadow{
     position: absolute;
@@ -19,4 +42,49 @@
     width: 100%;
     background-color: #111111;
     opacity: 0.7;
+}
+.nav-bar{
+    padding-top: 40px;
+}
+.name-company{
+    
+    color: #ffffff;
+    font-family: 'Raleway regular';
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+}
+.nav-link{   
+    color: #ffffff;
+    font-family: 'montserrat light';
+    font-size: 14px;
+    font-weight: 300;
+}
+.nav-link:hover{    
+    color: #c7b299;
+}
+
+.subtitle{   
+    margin-top: 285px;
+    color: #ffffff;
+    font-family: Raleway Medium;
+    font-size: 36px;
+    font-weight: 500;
+}
+.title{
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 52px;
+}
+.text{
+    width: 562px;
+    color: #ffffff;
+    margin: 0 auto;
+    font-family: Montserrat Light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.slide{
+    text-align: center;
 }
