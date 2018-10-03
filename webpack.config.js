@@ -7,7 +7,8 @@ module.exports={
         filename:'bundle.js',
     },
     devServer:{
-        index:'index.html',
+      contentBase: './src/',
+      index:'./src/index.html',
     },
     watch:true,
   module: {

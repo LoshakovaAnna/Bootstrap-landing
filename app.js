@@ -1,2 +1,3 @@
 console.log('works, baby');
-import './src/sass/main.scss';
+import './node_modules/bootstrap/scss/bootstrap.scss';
+import './src/style/sass/main.scss';
