@@ -13,25 +13,27 @@ module.exports={
     watch:true,
   module: {
     
-    rules: [{
+    rules: [
+      {
       test: /\.scss$/,
-      use: [{
-        loader: "style-loader"
-      }, {
-        loader: "css-loader"
-      }, {
-        loader: "sass-loader",
-        options: {
-          includePaths: []
-        }
-      }]
-      }, {
+      use: [{ loader: "style-loader" }, 
+            { loader: "css-loader" }, 
+           {  loader: "sass-loader",  options: { includePaths: []  } }
+          ]
+      }, 
+      {
         test: /\.css$/,
         use: ["style-loader", "css-loader", "postcss-loader"]
-      }, {
+      },
+       {
         test: /\.(gif|svg|jpg|png)$/,
         loader: "file-loader",
-      }]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        loader: "file-loader",
+      }
+    ]
     },
 
   plugins: [

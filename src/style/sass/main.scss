@@ -1,4 +1,6 @@
 @import url(../css/reset.css);
+@import url(../css/font-awesome.min.css);
+@import url(../css/fonts.css);
 
 .rel{
     position: relative;
@@ -29,10 +31,14 @@
     background-color: #111111;
 }
 .header{
-    background-image: url('../image/header-bgr.png') , linear-gradient(#eb01a5, #d13531);  
+    background-color: #111111;
+    opacity: 0.7;
+    background:  url('../image/header-bgr.png'), linear-gradient(to top, #211b19, #4e3427) ;  
     background-repeat: no-repeat;
     background-size: cover;
     height: 1024px;
+  
+    background-blend-mode:multiply;
 }
 .header-shadow{
     position: absolute;
@@ -43,25 +49,30 @@
     background-color: #111111;
     opacity: 0.7;
 }
-.nav-bar{
+.pad-t-40{
     padding-top: 40px;
 }
 .name-company{
     
     color: #ffffff;
-    font-family: 'Raleway regular';
+    font-family: "Raleway-Regular";
     font-size: 34px;
     font-weight: 400;
     letter-spacing: -1.36px;
 }
 .nav-link{   
     color: #ffffff;
-    font-family: 'montserrat light';
+    font-family: 'Montserrat-light';
     font-size: 14px;
     font-weight: 300;
 }
 .nav-link:hover{    
     color: #c7b299;
+}
+.icon{
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
 }
 
 .subtitle{   
