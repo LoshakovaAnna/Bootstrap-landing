@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: row;
 }
+
+
 .centr-position{
     width: 1230px;
     margin: 0 auto;
@@ -61,7 +63,7 @@
 }
 
 .subtitle{   
-    margin-top: 285px;
+    padding-top: 285px;
     color: #ffffff;
     font-family: "Raleway-Medium";
     font-size: 36px;
@@ -89,7 +91,7 @@
     background-color: #998675;
     
     color: #ffffff;
-    font-family: "Raleway - Extra Bold";
+    font-family: "Raleway-ExtraBold";
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
@@ -99,10 +101,22 @@
 .btn-get-started:hover{
     background-color: #111111;
 }
-.slide{
+
+.slide-header {
+    height: 873px;
     text-align: center;
 }
-
+.carousel-indicators li{
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+}
+.carousel-indicators .active{
+    border: 2px solid #d3c1ad;
+    background-color: rgba(255, 255, 255, 0);
+    height: 14px;
+    width: 14px;
+}
 .services{
     margin-top: 80px;
     margin-bottom: 80px;

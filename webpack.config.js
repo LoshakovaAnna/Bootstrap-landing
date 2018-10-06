@@ -41,5 +41,10 @@ module.exports={
     new webpack.WatchIgnorePlugin([
       path.join(__dirname, "node_modules")
     ]),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery"
+      }),
   ]
 }
