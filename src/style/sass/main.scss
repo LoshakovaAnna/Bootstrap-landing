@@ -181,6 +181,26 @@ background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 
 
 footer{
-height: 619px;
-background-color: #191919;
+    height: 619px;
+    padding-top: 80px;
+    background-color: #191919;
+    }
+.text-footer{
+    
+    font-family: 'Montserrat-Light';
+    
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.copyright{
+    height: 111px;
+    background-color: #111111;
+
+    background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
 }
