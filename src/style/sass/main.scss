@@ -102,6 +102,7 @@
 }
 .btn-get-started:hover{
     background-color: #111111;
+    box-shadow:none;
 }
 
 .slide-header {
@@ -178,7 +179,7 @@
         line-height: 28px;
         color: #8c8c8c;
         width: 757px;
-        margin-bottom: 40px;
+        margin-bottom: 43px;
     }
 
 }
@@ -259,6 +260,80 @@
         background-color: #998675;
         .nav-link{
             color: #ffffff;
+        }
+    }
+    .card-section{
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        .card{
+            width: 370px;
+        }
+        .treyg-shadow{
+            position: absolute;
+            left: 20px;
+            top: -10px;
+            visibility: hidden;
+        }
+        .card-img-shadow{
+            position: absolute;
+            left: 0;
+            top: 0;
+            visibility: hidden;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(17, 17, 17, 0.7);
+            padding-top: 105px;
+            
+
+        }
+        .icon-card{
+            font-size: 26px;
+            color: #ffffff;
+            padding-right: 28px;
+        }
+        .icon-card:hover{
+            color: #c7b299;
+        }
+
+        .card-body{
+            border-color: #fbfaf8;
+            padding: 30px;
+            .treyg{
+                position: absolute;
+                left: 20px;
+                top: -10px;
+            }
+            .card-title{
+                color: #c7b299;
+                font-family: "Raleway-Medium";
+                
+                font-size: 20px;
+            }
+            .card-text{               
+                color: #d1d1d1;
+                font-family: "Montserrat-Light";
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        
+    }
+    .card:hover{
+        .card-body{
+            background-color: #362f2d;
+            .card-title{
+                color: #ffffff;
+            }
+            .card-text{
+                color: #c7b299;
+            }
+        }
+        .card-img-shadow{
+            visibility: visible;
+        }
+        .treyg-shadow{
+            visibility: visible;
         }
     }
 }
