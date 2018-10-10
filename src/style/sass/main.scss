@@ -7,11 +7,6 @@
 .rel{
     position: relative;
 }
-.row{
-    display: flex;
-    flex-direction: row;
-}
-
 
 .centr-position{
     width: 1230px;
@@ -265,6 +260,7 @@
     .card-section{
         margin-top: 40px;
         margin-bottom: 40px;
+        height: 705px;
 
         .card{
             width: 370px;
@@ -341,7 +337,43 @@
 
 .video-presentation{
     background-image: url('../image/vid-pres.png');
+    background-color: rgba(17, 17, 17, 0.5);
+    
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 705px;
+    padding-top: 210px;
+    .icon-play-container{
+        background-image: url('../../pics/play-video.png');
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .pres-title{                
+        color: #ffffff;
+        font-family: "Raleway-Medium";
+        font-size: 30px;
+        margin-top: 59px;
+        margin-bottom: 29px;
+
+    }
+    .pres-text{        
+        width: 553px;
+        color: #ffffff;
+        font-family: "Montserrat-Light";
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0 auto;
+    }
+    .video-time{
+        color: #c7b299;
+        font-family: "Montserrat-Regular";
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 40px;
+    }
+
 }
 .exelent-for-mobile-dev{
     padding-top:79px;
@@ -370,17 +402,18 @@
         font-size: 16px;
         line-height: 32px;
     }
-    .arrow{
-        width: 21px;
-        height: 21px;
-        border-radius: 50%;
+    .icon-list{
         background-color: #c7b299;
         color: #ffffff;
+        font-size: 23px;
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
         margin-left: 50px;
         margin-right: 29px;
         margin-bottom: 12px;
-        
     }
+    
 }
 
 .counters{
@@ -388,14 +421,13 @@
     height: 300px;
     background-color: #f4f5f8;
     background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
-    .icon{
-        margin-top: 69px;
-        margin-bottom: 30px;
+    padding-top: 69px;
+    .icon-counters{
         font-size: 44px;
-        color:  #c7b299;
+        color: #c7b299;
     }
     .counters-number{
-            
+            margin-top: 30px;
         color: #ffffff;
         font-family: "Montserrat-UltraLight";
         font-size: 48px;
@@ -417,13 +449,87 @@
         margin: 0 auto;
     }
 }
+.recent-posts{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .title-recent-posts{       
+        
+        color: #555555;
+        font-family: "Raleway-SemiBold";
+        font-size: 30px;
+    }
+    .text-recent-posts{
+        width: 757px;
+        color: #8c8c8c;
+        font-family: "Montserrat-Light";
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .card-title{               
+        color: #555555;                
+        font-family: "Raleway-Medium";
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .card-text{              
+        width: 297px;
+
+        color: #8c8c8c;
+        font-family: "Montserrat-Light";
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .card-read{
+        color: #c7b299;
+        font-family: "Montserrat-Light";
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .card-date{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width:50px;
+        height: 60px;
+        text-align: center;
+        .card-header{
+            background-color: #363636;            
+            color: #ffffff;
+            font-family: "Montserrat-Light";
+            font-size: 24px;
+            line-height: 29px;
+            padding: 0;
+        }
+        .card-body{
+            background-color: #252525;
+           
+            color: #ffffff;
+            font-family: 'Roboto-Regular';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 25px;
+            padding: 0;
+            
+        }
+
+    }
+    .arrow-block{
+        margin-top: 40px;
+        width: 52px;
+    }
+}
 
 .partners{
     height: 489px;
     background-image: url('../image/parthners-bgr.png');
     background-color: rgba(17, 17, 17, 0.7);
     
-    background-blend-mode:multiply;
+    background-blend-mode:multiply;   
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .logo-row{
@@ -444,14 +550,30 @@ footer{
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
+    margin-top: 29px;
+    margin-bottom: 33px;
+}
+.footer-title{   
+    
+    color: #ffffff;
+    font-family: "Raleway-Bold";
+    font-size: 24px;
+}
+.post{
+    .footer-post-date{
+        
+    }
+    .footer-post-text{
+
+    }
 }
 .copyright{
     height: 111px;
     background-color: #111111;
 
     background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
 }
