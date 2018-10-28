@@ -7,34 +7,9 @@
 .rel{
     position: relative;
 }
-
 .centr-position{
     max-width: 1230px;
     margin: 0 auto;
-}
-.header{
-  /*  background-color: #111111;
-    opacity: 0.7;
-    background:  url('../image/header-bgr.png'), linear-gradient(to top, #211b19, #4e3427) ;  */
-    
-    background:  url('../image/header-bgr-2-dark.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1024px;
-  
-    //background-blend-mode:multiply;
-}/*
-.header-shadow{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 1024px;
-    width: 100%;
-    background-color: #111111;
-    opacity: 0.7;
-}*/
-.pad-t-40{
-    padding-top: 40px;
 }
 .name-company{
     
@@ -48,7 +23,6 @@
     color: #ffffff;
     font-family: 'Montserrat-light';
     font-size: 14px;
-    font-weight: 300;
 }
 .nav-link:hover{    
     color: #c7b299;
@@ -63,8 +37,6 @@
     }
 }
 
-
-
 .subtitle{   
     padding-top: 285px;
     color: #ffffff;
@@ -78,7 +50,7 @@
     margin: 15px auto;
 }
 .text{
-    width: 562px;
+    max-width: 562px;
     color: #ffffff;
     font-family: "Montserrat-Light";
     font-size: 16px;
@@ -96,7 +68,6 @@
     color: #ffffff;
     font-family: "Raleway-ExtraBold";
     font-size: 14px;
-    font-weight: 400;
     line-height: 23px;
     text-transform: uppercase;
     margin-top: 50px;
@@ -106,21 +77,37 @@
     box-shadow:none;
 }
 
-.slide-header {
-    height: 873px;
-    text-align: center;
+.header{    
+    background:  url('../image/header-bgr-2-dark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1024px;
+    
+    .pad-t{
+        padding-top: 40px;
+    }
+    
+    .slide-header {
+        height: 873px;
+        text-align: center;
+    }
+    .carousel-indicators li{
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+    }
+    .carousel-indicators .active{
+        border: 2px solid #d3c1ad;
+        background-color: rgba(255, 255, 255, 0);
+        height: 14px;
+        width: 14px;
+    }
+    .icon-slider-left, .icon-slider-right{
+        display: none;
+    }
+
 }
-.carousel-indicators li{
-    border-radius: 50%;
-    height: 11px;
-    width: 11px;
-}
-.carousel-indicators .active{
-    border: 2px solid #d3c1ad;
-    background-color: rgba(255, 255, 255, 0);
-    height: 14px;
-    width: 14px;
-}
+
 .services{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -149,8 +136,7 @@
         width: 70px;
         height: 3px;
         margin: 0 auto;
-        margin-top: 30px;
-    
+        margin-top: 30px;    
         background-color: #f1eee9;
     }
     .services-col:hover{        
@@ -160,9 +146,10 @@
         .line-70{    
             background-color: #c7b299;
         }
-    }
-    
+    }    
 }
+
+
 .realization{
     background-color: #fbfaf8;
     padding-top: 84px;
@@ -183,7 +170,6 @@
     .realization-img{
         display: block;
     }
-
 }
 
 
@@ -213,7 +199,6 @@
         border-radius: 3px;
         background-color: #998675;
 
-
         color: #ffffff;
         font-family: "Raleway-ExtraBold";
         font-size: 14px;
@@ -225,6 +210,7 @@
         box-shadow:none;
     }
 }
+
 .latest-projects{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -252,8 +238,7 @@
         font-size: 14px;
         line-height: 21px;
     }
-    .nav-item:hover{
-       
+    .nav-item:hover{       
         background-color: #998675;
         .nav-link{
             color: #ffffff;
@@ -263,7 +248,6 @@
         margin-top: 40px;
         margin-bottom: 40px;
         height: 705px;
-
         .card{
             width: 370px;
         }
@@ -281,9 +265,7 @@
             width: 100%;
             height: 100%;
             background-color: rgba(17, 17, 17, 0.7);
-            padding-top: 105px;
-            
-
+            padding-top: 105px;      
         }
         .icon-card{
             font-size: 26px;
@@ -293,7 +275,6 @@
         .icon-card:hover{
             color: #c7b299;
         }
-
         .card-body{
             border-color: #fbfaf8;
             padding: 29px;
@@ -313,10 +294,8 @@
                 font-family: "Montserrat-Light";
                 font-size: 14px;
                 line-height: 20px;
-
             }
-        }
-        
+        }        
     }
     .card:hover{
         .card-body{
@@ -351,8 +330,7 @@
     height: 705px;
     padding-top: 210px;
     .icon-play-container{
-       /* background-image: url('../../pics/play-video.png');*/
-       background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
         cursor: pointer;
         border-radius: 50%;
         width: 100px;
@@ -370,7 +348,6 @@
         font-size: 30px;
         margin-top: 59px;
         margin-bottom: 29px;
-
     }
     .pres-text{        
         width: 553px;
@@ -387,11 +364,9 @@
         line-height: 24px;
         margin-top: 40px;
     }
-
 }
 .exelent-for-mobile-dev{
-    padding-top:79px;
-   
+    padding-top:79px;   
     height: 695px;
     background-color: #fbfaf8;
     .title{
@@ -401,8 +376,7 @@
         font-family: "Raleway-SemiBold";
         font-size: 30px;
     }
-    .text{
-            
+    .text{            
         width: 657px;
         color: #8c8c8c;
         font-size: 16px;
@@ -427,8 +401,7 @@
         margin-right: 29px;
         margin-bottom: 12px;
         margin-top: 6px;
-    }
-    
+    }    
 }
 
 .counters{
@@ -441,7 +414,7 @@
         color: #c7b299;
     }
     .counters-number{
-            margin-top: 30px;
+        margin-top: 30px;
         color: #ffffff;
         font-family: "Montserrat-UltraLight";
         font-size: 48px;
@@ -466,8 +439,7 @@
 .recent-posts{
     padding-top: 80px;
     padding-bottom: 80px;
-    .title-recent-posts{       
-        
+    .title-recent-posts{ 
         color: #555555;
         font-family: "Raleway-SemiBold";
         font-size: 30px;
@@ -481,10 +453,6 @@
         margin-top: 30px;
         margin-bottom: 40px;
     }
-    /*
-    background-color: #111111;
-    opacity: 0.7;
-    */
     .col-post:nth-child(1)  .post .post-img-top{
         background-image: url('../../pics/resent-posts-1.png');  
     }
@@ -502,7 +470,6 @@
             height: 220px;            
             background-repeat: no-repeat;
             background-size: cover;
-
             .card-date{
                 position: absolute;
                 top: 20px;
@@ -550,14 +517,12 @@
             }
             .post-info-read{
                 text-decoration: none;
-                color: #c7b299;
-                
+                color: #c7b299;                
                 font-family: "Montserrat-Light";
                 font-size: 14px;
                 font-weight: 300;
                 line-height: 20px;
-                cursor: pointer;
-                
+                cursor: pointer;                
             }   
             .post-info-read:hover{
                 text-decoration: underline;
@@ -589,10 +554,6 @@
             }
         }
     }
-    
-  
-    
-   
     .arrow-block{
         margin-top: 40px;
         width: 52px;
@@ -609,28 +570,22 @@
 .partners{
     height: 489px;
     background-image: url('../image/parthners-bgr.png');
-    background-color: rgba(17, 17, 17, 0.7);
-    
+    background-color: rgba(17, 17, 17, 0.7);    
     background-blend-mode:multiply;   
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .logo-row{
     height: 100%;
 }
 
-
 footer{
     padding-top: 80px;
     background-color: #191919;
-    .text-footer{
-    
+    .text-footer{    
         font-family: 'Montserrat-Light';
-        
         color: #555555;
         font-size: 14px;
-        font-weight: 300;
         line-height: 24px;
         margin-top: 29px;
         margin-bottom: 33px;
@@ -641,8 +596,7 @@ footer{
         font-size: 14px;
         line-height: 20px;
     }
-    .footer-title{   
-        
+    .footer-title{ 
         color: #ffffff;
         font-family: "Raleway-Bold";
         font-size: 24px;
@@ -668,7 +622,6 @@ footer{
             .twitter-link{
                 color: #959595;
             }
-    
         }
         border-bottom:  2px solid #252525;
     }
@@ -692,25 +645,18 @@ footer{
         height: 111px;
         margin-top: 60px;
         background-color: #111111;
-        color: #555555;
-        
+
+        color: #555555;        
         font-family: 'Montserrat-Light';
         font-size: 13px;
         line-height: 20px;
     
-    
-        color: #555555;
-    
-    /* Text style for "|   ,    |" */
-    //color: #252525;
-    /* Text style for "FAQ" */
         .copyright-name-company{
             color: #959595;
         }
         .copyright-link{
             text-decoration: none;
-            color: #555555;
-           
+            color: #555555;           
         }
         .vertical-line{
             margin-left: 11px;
@@ -727,4 +673,7 @@ footer{
             color: #c7b299;
         }
     }   
-    }
+}
+
+
+@import'mobile.scss';
