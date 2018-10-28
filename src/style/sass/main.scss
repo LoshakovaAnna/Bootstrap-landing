@@ -9,7 +9,7 @@
 }
 
 .centr-position{
-    width: 1230px;
+    max-width: 1230px;
     margin: 0 auto;
 }
 .header{
@@ -466,58 +466,127 @@
         margin-top: 30px;
         margin-bottom: 40px;
     }
-    .card-title{               
-        color: #555555;                
-        font-family: "Raleway-Medium";
-        font-size: 20px;
-        font-weight: 500;
+    /*
+    background-color: #111111;
+    opacity: 0.7;
+    */
+    .col-post:nth-child(1)  .post .post-img-top{
+        background-image: url('../../pics/resent-posts-1.png');  
     }
-    .card-text{              
-        width: 297px;
+    .col-post:nth-child(2) .post  .post-img-top{
+        background-image: url('../../pics/resent-posts-2.png'); 
+    }
+    .col-post:nth-child(3) .post .post-img-top{
+        background-image: url('../../pics/resent-posts-3.png');  
+    }
+    .post{
+        width: 370px;
+        height: 395px;
+        .post-img-top{
+            width: 370px;
+            height: 220px;            
+            background-repeat: no-repeat;
+            background-size: cover;
 
-        color: #8c8c8c;
-        font-family: "Montserrat-Light";
-        font-size: 14px;
-        line-height: 22px;
-    }
-    .card-read{
-        color: #c7b299;
-        font-family: "Montserrat-Light";
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 20px;
-    }
-    .card-date{
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        width:50px;
-        height: 60px;
-        text-align: center;
-        .card-header{
-            background-color: #363636;            
-            color: #ffffff;
-            font-family: "Montserrat-Light";
-            font-size: 24px;
-            line-height: 29px;
-            padding: 0;
+            .card-date{
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width:50px;
+                height: 60px;
+                text-align: center;
+                background-color: transparent;
+                .card-header{
+                    background-color: #363636;            
+                    color: #ffffff;
+                    font-family: "Montserrat-Light";
+                    font-size: 24px;
+                    line-height: 29px;
+                    padding: 0;
+                }
+                .card-body{
+                    background-color: #252525;
+                    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+                    color: #ffffff;
+                    font-family: 'Roboto-Regular';
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    padding: 0;                    
+                }        
+            }
         }
-        .card-body{
-            background-color: #252525;
+        .post-info{
+            width: 370px;
+            padding: 30px;
+            .post-info-title{               
+                color: #555555;                
+                font-family: "Raleway-Medium";
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .post-info-text{   
+                padding-top: 15px;
+                padding-bottom: 23px;
+                color: #8c8c8c;
+                font-family: "Montserrat-Light";
+                font-size: 14px;
+                line-height: 22px;
+            }
+            .post-info-read{
+                text-decoration: none;
+                color: #c7b299;
+                
+                font-family: "Montserrat-Light";
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 20px;
+                
+            }   
+            .post-info-read:hover{
+                text-decoration: underline;
+            }     
+        }
+    }
+    .post:hover{
+        .post-img-top{       
+            background-color: rgba(17, 17, 17, 0.7);            
+            background-blend-mode:multiply;   
+            .card-date .card-header{
+                background-color: #c7b299;
+            }
+            .card-date .card-body{
+                background-color: #a48d72;
+            }
+        }
+        .post-info{
+            background-color: #362f2d;
            
-            color: #ffffff;
-            font-family: 'Roboto-Regular';
-            font-size: 12px;
-            font-weight: 400;
-            line-height: 25px;
-            padding: 0;
-            
+            .post-info-title{
+                color: #c7b299;
+            }
+            .post-info-text{
+                color: #ffffff;
+            }
+            .post-info-read{
+                color: #c7b299;
+            }
         }
-
     }
+    
+  
+    
+   
     .arrow-block{
         margin-top: 40px;
         width: 52px;
+        .icon-post{
+            color: #d1d1d1;
+            font-size: 22px;
+        }
+        .icon-post:hover{
+            color: #c7b299;
+        }
     }
 }
 
@@ -537,105 +606,104 @@
 
 
 footer{
- //   height: 539;// 619px;
     padding-top: 80px;
     background-color: #191919;
-    }
-.text-footer{
+    .text-footer{
     
-    font-family: 'Montserrat-Light';
-    
-    color: #555555;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    margin-top: 29px;
-    margin-bottom: 33px;
-}
-.footer-link{
-    color: #d1d1d1;
-    font-family: "Montserrat-Regular"; 
-    font-size: 14px;
-    line-height: 20px;
-}
-.footer-title{   
-    
-    color: #ffffff;
-    font-family: "Raleway-Bold";
-    font-size: 24px;
-    margin-bottom: 25px;
-}
-.post{
-    margin-top: 17px;
-    padding-bottom: 21px;
-    line-height: 20px;    
-    font-family: 'Montserrat-Light';
-    .footer-post-time{  
-        margin-top: 10px; 
-        color: #363636;       
-        font-size: 12px;       
-    }
-    .footer-post-text{
-        margin-top: 10px;
+        font-family: 'Montserrat-Light';
+        
         color: #555555;
-        font-size: 14px; 
-        .twitter-post-alt{
-            color: #00bff3;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 29px;
+        margin-bottom: 33px;
+    }
+    .footer-link{
+        color: #d1d1d1;
+        font-family: "Montserrat-Regular"; 
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer-title{   
+        
+        color: #ffffff;
+        font-family: "Raleway-Bold";
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .post{
+        margin-top: 17px;
+        padding-bottom: 21px;
+        line-height: 20px;    
+        font-family: 'Montserrat-Light';
+        .footer-post-time{  
+            margin-top: 10px; 
+            color: #363636;       
+            font-size: 12px;       
         }
-        .twitter-link{
+        .footer-post-text{
+            margin-top: 10px;
+            color: #555555;
+            font-size: 14px; 
+            .twitter-post-alt{
+                color: #00bff3;
+            }
+            .twitter-link{
+                color: #959595;
+            }
+    
+        }
+        border-bottom:  2px solid #252525;
+    }
+    .post:last-child{
+        border-bottom: transparent;
+    }
+    .post:hover{
+        .footer-post-time{    
+            color: #ffffff;
+        }
+        .footer-post-text{ 
+            color: #c7b299; 
+        }
+    }
+    .dribbble-widget{
+        width: 270px;
+        height: 216px;
+    }
+    .copyright{
+        padding-top: 45px;
+        height: 111px;
+        margin-top: 60px;
+        background-color: #111111;
+        color: #555555;
+        
+        font-family: 'Montserrat-Light';
+        font-size: 13px;
+        line-height: 20px;
+    
+    
+        color: #555555;
+    
+    /* Text style for "|   ,    |" */
+    //color: #252525;
+    /* Text style for "FAQ" */
+        .copyright-name-company{
             color: #959595;
         }
-
+        .copyright-link{
+            text-decoration: none;
+            color: #555555;
+        }
+        .copyright-link:hover{
+            color: #c7b299;
+        }
+        .copyright-link-alt{
+            text-decoration: none;
+            color: #959595;
+        }
+        a:hover{
+            color: #c7b299;
+        }
+    }   
     }
-    border-bottom:  2px solid #252525;
-}
-.post:last-child{
-    border-bottom: transparent;
-}
-.post:hover{
-    .footer-post-time{    
-        color: #ffffff;
-    }
-    .footer-post-text{ 
-        color: #c7b299; 
-    }
-}
-.dribbble-widget{
-    width: 270px;
-    height: 206px;
-}
-.copyright{
-    padding-top: 45px;
-    height: 111px;
-    margin-top: 60px;
-    background-color: #111111;
-    color: #555555;
-    
-    font-family: 'Montserrat-Light';
-    font-size: 13px;
-    line-height: 20px;
-
-
-    color: #555555;
-
-/* Text style for "|   ,    |" */
-//color: #252525;
-/* Text style for "FAQ" */
-    .copyright-name-company{
-        color: #959595;
-    }
-    .copyright-link{
-        text-decoration: none;
-        color: #555555;
-    }
-    .copyright-link:hover{
-        color: #c7b299;
-    }
-    .copyright-link-alt{
-        text-decoration: none;
-        color: #959595;
-    }
-    a:hover{
-        color: #c7b299;
-    }
-}
