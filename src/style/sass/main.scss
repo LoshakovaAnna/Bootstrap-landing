@@ -23,7 +23,7 @@
     height: 1024px;
   
     //background-blend-mode:multiply;
-}
+}/*
 .header-shadow{
     position: absolute;
     top: 0;
@@ -32,7 +32,7 @@
     width: 100%;
     background-color: #111111;
     opacity: 0.7;
-}
+}*/
 .pad-t-40{
     padding-top: 40px;
 }
@@ -56,8 +56,14 @@
 .icon{
     color: #ffffff;
     text-align: left;
-    font-size: 14px;
+    font-size: 24px;
+    &:hover{
+        color: #c7b299;
+        text-decoration: none;
+    }
 }
+
+
 
 .subtitle{   
     padding-top: 285px;
@@ -235,16 +241,12 @@
         line-height: 28px;
         margin-top: 24px;
         margin-bottom: 50px;
-    }
-    
-    .nav-item{
-       
+    }    
+    .nav-item{       
         border-radius: 3px;
-        border: 1px solid #ebebeb;
-        
+        border: 1px solid #ebebeb;        
     }
     .nav-link{
-
         color: #8c8c8c;
         font-family: 'Montserrat-Light';
         font-size: 14px;
@@ -294,7 +296,7 @@
 
         .card-body{
             border-color: #fbfaf8;
-            padding: 30px;
+            padding: 29px;
             .treyg{
                 position: absolute;
                 left: 20px;
@@ -303,7 +305,7 @@
             .card-title{
                 color: #c7b299;
                 font-family: "Raleway-Medium";
-                
+                margin-bottom: 7px;
                 font-size: 20px;
             }
             .card-text{               
@@ -311,6 +313,7 @@
                 font-family: "Montserrat-Light";
                 font-size: 14px;
                 line-height: 20px;
+
             }
         }
         
@@ -331,6 +334,9 @@
         .treyg-shadow{
             visibility: visible;
         }
+        .treyg{
+            visibility: hidden;
+        }
     }
 }
 
@@ -345,10 +351,18 @@
     height: 705px;
     padding-top: 210px;
     .icon-play-container{
-        background-image: url('../../pics/play-video.png');
+       /* background-image: url('../../pics/play-video.png');*/
+       background-color: rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        border-radius: 50%;
         width: 100px;
         height: 100px;
         margin: 0 auto;
+        .icon-play{
+            font-size:70px; 
+            line-height: 100px;
+            color: #ffffff;
+        }
     }
     .pres-title{                
         color: #ffffff;
@@ -412,6 +426,7 @@
         margin-left: 50px;
         margin-right: 29px;
         margin-bottom: 12px;
+        margin-top: 6px;
     }
     
 }
@@ -541,6 +556,7 @@
                 font-size: 14px;
                 font-weight: 300;
                 line-height: 20px;
+                cursor: pointer;
                 
             }   
             .post-info-read:hover{
@@ -694,6 +710,11 @@ footer{
         .copyright-link{
             text-decoration: none;
             color: #555555;
+           
+        }
+        .vertical-line{
+            margin-left: 11px;
+            margin-right: 11px;
         }
         .copyright-link:hover{
             color: #c7b299;
