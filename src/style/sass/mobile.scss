@@ -2,12 +2,13 @@
     .header{
         
         width: 100%;
-        max-height: 524px;
+        height: 524px;
         .pad-t{
             padding-top: 10px;
         }
         .logo img{
             height: 32px;
+            margin-left: 10px;
         }
         .name-company{
             font-size: 22px;
@@ -33,7 +34,7 @@
             height: 35px;
             font-size: 10px;
             line-height: 23px;
-            margin-top: 50px;
+            margin-top: 30px;
         }
         .slide-header{
             width: 70%;
@@ -43,17 +44,42 @@
         .control-prev, .control-next{
             display: none;
         }
+
         .icon-slider-left, .icon-slider-right{
             display: block;
         }
         .carousel-control-prev, .carousel-control-next {
             width: 8%;
         }
+        .carousel-control-prev {
+            left:10px;
+        }
         .carousel {
             width: 90%;
+        //    margin-left: 10px;
         }
     }
-    .services,
+    .services{
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .icon{
+            font-size: 40px;
+        }
+        .services-title {
+            margin-top: 20px;
+            margin-bottom: 15px;     
+            
+        }
+        .services-text{      
+            line-height: 20px;
+        }
+        .line-70{
+            margin-top: 20px;    
+            margin-bottom: 15px;
+        }
+        
+    }
    // .carousel,
     .counters,
     .realization,

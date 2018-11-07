@@ -81,6 +81,7 @@
     background:  url('../image/header-bgr-2-dark.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 1024px;
     
     .pad-t{
@@ -164,7 +165,7 @@
         font-size: 16px;
         line-height: 28px;
         color: #8c8c8c;
-        width: 757px;
+        max-width:  757px;
         margin-bottom: 43px;
     }
     .realization-img{
