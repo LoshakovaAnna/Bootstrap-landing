@@ -80,9 +80,24 @@
         }
         
     }
-   // .carousel,
+    
+    .realization{
+        padding-top: 40px;
+        .text, .title{
+            max-width: 90%;
+        }
+        .title{           
+            font-size: 25px;    
+        }
+        .text{
+            font-size: 15px;
+            line-height: 25px;
+        }
+        .realization-img{
+            max-width: 100%;
+        }
+    }
     .counters,
-    .realization,
     .text-boxes,
     .latest-projects,
     .video-presentation,
