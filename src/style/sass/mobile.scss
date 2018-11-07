@@ -116,10 +116,70 @@
             margin-bottom: 25px;
         }
     }
-    .counters,
-    .latest-projects,
-    .video-presentation,
+    .latest-projects{
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .lt-title{        
+            font-size: 25px;
+        }
+        .lt-text{
+            width: 90%;
+            font-size: 14px;
+            line-height: 26px;
+            margin-top: 24px;
+            margin-bottom: 50px;
+        }   
+        .nav-item{       
+            margin-bottom: 10px;
+        }
+
+        .card-section{
+            height: auto;
+            .card{
+                margin: 10px auto;
+            }
+        }
+    }
+
+    .video-presentation{
+        height: 280px;
+        padding-top: 65px;
+        .icon-play-container{           
+            width: 60px;
+            height: 60px;
+            .icon-play{
+                font-size:40px; 
+                line-height: 60px;
+            }
+        }
+        .icon-play-container:hover{
+            .icon-play{
+                font-size: 50px;
+            }
+        }
+            
+        .pres-title{                
+            font-size: 18px;
+            margin-top: 18px;
+            margin-bottom: 14px;
+        }
+        .pres-text{        
+            max-width: 90%;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .video-time{
+            font-size: 12px;
+            line-height: 18px;
+            margin-top: 18px;
+        }
+    }
+    
     .exelent-for-mobile-dev,
+
+    .counters,
+    
     .counters,
     .recent-posts,
     .partners,
