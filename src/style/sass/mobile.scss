@@ -236,7 +236,18 @@
         }
     }
 
-    .recent-posts,
+    .recent-posts{
+        
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .text-recent-posts{
+            width: 90%;
+        }
+        .post{
+            margin-bottom: 10px;
+        }
+    }
+    
     .partners,
     .logo-row,
     footer{
