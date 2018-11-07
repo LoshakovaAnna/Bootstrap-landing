@@ -25,9 +25,11 @@
         }
         .title{
             font-size: 30px;
+            margin-top: 60px;
         }
         .text{
             font-size: 10px;
+            line-height: 14px;
         }
         .btn-get-started{
             width: 120px;
@@ -45,7 +47,7 @@
             display: none;
         }
 
-        .icon-slider-left, .icon-slider-right{
+       /* .icon-slider-left, .icon-slider-right{
             display: block;
         }
         .carousel-control-prev, .carousel-control-next {
@@ -53,9 +55,12 @@
         }
         .carousel-control-prev {
             left:10px;
-        }
+        }*/
         .carousel {
             width: 90%;
+            .subtitle{
+                display: none;
+            }
         //    margin-left: 10px;
         }
     }
@@ -162,7 +167,7 @@
         .pres-title{                
             font-size: 18px;
             margin-top: 18px;
-            margin-bottom: 14px;
+            margin-bottom: 8px;
         }
         .pres-text{        
             max-width: 90%;
@@ -172,13 +177,42 @@
         .video-time{
             font-size: 12px;
             line-height: 18px;
-            margin-top: 18px;
+            margin-top: 8px;
         }
     }
     
-    .exelent-for-mobile-dev,
+    .exelent-for-mobile-dev{
+        padding-top:30px;  
+        padding-bottom: 30px; 
+        height: auto;
+        .title{
+            margin-top: 0;
+            margin-bottom: 40px;
+            font-size: 20px;
+        }
+        .text{            
+            width: 90%;
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 30px;
+        }
+        
+        .list-item{        
+            font-size: 12px;
+            line-height: 22px;
+        }
+        .icon-list{
+            font-size: 16px;
+            width: 16px;
+            height: 16px;
+            margin-left: 5px;
+            margin-right: 7px;
+            margin-bottom: 12px;
+            margin-top: 6px;
+        }    
+            
+    }
 
-    .counters,
     
     .counters,
     .recent-posts,
