@@ -97,8 +97,26 @@
             max-width: 100%;
         }
     }
+    
+    .text-boxes{
+        height: 220px;
+        .tb-title{
+            font-size: 20px;
+            text-align: center;
+        }
+        .tb-text{
+            font-size: 14px;
+            text-align: center;
+        }
+        .btn-purchase{
+            width: 140px;
+            font-size: 12px;
+            margin: 0 auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
     .counters,
-    .text-boxes,
     .latest-projects,
     .video-presentation,
     .exelent-for-mobile-dev,
