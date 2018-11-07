@@ -1,0 +1,71 @@
+@media only screen and (max-width: 575px) {
+    .header{
+        
+        width: 100%;
+        max-height: 524px;
+        .pad-t{
+            padding-top: 10px;
+        }
+        .logo img{
+            height: 32px;
+        }
+        .name-company{
+            font-size: 22px;
+        }
+        .icon-header{
+            font-size: 18px;
+        }
+        .navbar-toggler{
+            color: #ffffff;
+        }
+        .subtitle{
+            padding-top:30px;
+            font-size: 22px;
+        }
+        .title{
+            font-size: 30px;
+        }
+        .text{
+            font-size: 10px;
+        }
+        .btn-get-started{
+            width: 120px;
+            height: 35px;
+            font-size: 10px;
+            line-height: 23px;
+            margin-top: 50px;
+        }
+        .slide-header{
+            width: 70%;
+            height: 340px;
+            margin: 0 auto;
+        }
+        .control-prev, .control-next{
+            display: none;
+        }
+        .icon-slider-left, .icon-slider-right{
+            display: block;
+        }
+        .carousel-control-prev, .carousel-control-next {
+            width: 8%;
+        }
+        .carousel {
+            width: 90%;
+        }
+    }
+    .services,
+   // .carousel,
+    .counters,
+    .realization,
+    .text-boxes,
+    .latest-projects,
+    .video-presentation,
+    .exelent-for-mobile-dev,
+    .counters,
+    .recent-posts,
+    .partners,
+    .logo-row,
+    footer{
+        display: none;
+    }
+}
