@@ -214,7 +214,28 @@
     }
 
     
-    .counters,
+    .counters{
+        height: auto;
+        padding-top: 20px;
+        .icon-counters{
+            font-size: 20px;
+        }
+        .counters-number{
+            margin-top: 10px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .countres-parametr{
+            font-size: 10px;
+            line-height: 14px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .line-30{
+            margin-bottom: 20px;
+        }
+    }
+
     .recent-posts,
     .partners,
     .logo-row,
