@@ -9,34 +9,63 @@
 </head>
 <body> 
     <div class="header rel">
-      <!-- <div class="header-shadow">
-           
-       </div>-->
+   
         <div class="centr-position">
-            <div class="d-flex flex-row   pad-t-40  no-gutters">
-                <div class="logo col  d-flex flex-row   align-items-center  ">
+                
+            <div class="d-flex flex-row   pad-t  no-gutters">
+                <div class="logo col-sm col-6 d-flex flex-row   align-items-center  ">
 
                     <img src="/style/image/logo.png" alt="">
                     <p class="name-company align-items-center "> Waxom</p>
                 
                 </div>
 
-                <nav class="nav justify-content-end align-items-center  col-9">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#">About Us</a>
-                    <a class="nav-link" href="#">Portfolio</a>
-                    <a class="nav-link " href="#">Features</a>
-                    <a class="nav-link " href="#">Blog</a>
-                    <a class="nav-link " href="#">Pricing</a>
-                    <a class="nav-link " href="#">Shortcodes</a>
-                    <a class="nav-link " href="#">Contact</a>                        
+                <nav class="col-2 col-sm-9 nav  navbar navbar-expand-sm nav-line justify-content-end align-items-center  ">
+                    <button class="navbar-toggler " 
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="toggle nav">
+        
+                        <i class="fa fa-bars nav-icon"></i>            
+                    </button>
+                    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                        <ul class="navbar-nav   container-fluid ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="#">Features</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="#">Blog</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="#">Shortcodes</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="#">Contact</a> 
+                            </li> 
+                        </ul>  
+                    </div>                  
                 </nav>
 
-                <div class="col-1 d-flex flex-row   align-items-center  ">
-                    <div class="offset-6  ">
-                        <a  href="#"  class="icon icon-new icon-cart"></a>
-
-                        <a  href="#" class="icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <div class="col-1 col-sm-1 d-flex flex-row   align-items-center  ">
+                    <div class="col  offset-sm-4">
+                        <a  href="#"  class="icon icon-new icon-cart icon-header"></a>
+                    </div>
+                    <div class="col">
+                        <a  href="#" class="icon icon-header"><i class="fa fa-search" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -103,11 +132,17 @@
                 </div>
 
                 <a class="carousel-control-prev" href="#carouselHeaderIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <svg width="40px" height="70px" class="control-prev">
+                        <polyline  points="40,70 2,35 40,0" stroke="#d3c1ad" stroke-width="3px" fill="none" >
+                    </svg>  
+                    <i class="carousel-control-prev-icon icon-slider-left" aria-hidden="true"></i>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselHeaderIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <i class="carousel-control-next-icon icon-slider-right" aria-hidden="true"></i>
+                    <svg width="40px" height="70px" class="control-next">
+                        <polyline  points="0,70 38,35 0,0" stroke="#d3c1ad" stroke-width="3px" fill="none" >
+                    </svg>     
                     <span class="sr-only">Next</span>
                 </a>
             </div>
@@ -151,7 +186,7 @@
         <p class="text text-center"> Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
          
        
-            <img src="pics/section-3.png" alt="">
+            <img src="pics/section-3.png" alt="" class="realization-img">
            
     </div> 
 
@@ -319,6 +354,7 @@
                             
        
             <div class="icon-play-container ">
+                    <i class="icon-play icon-new"  ></i>
             </div>
             <h3 class="pres-title"> Waxom Video Presentation</h3>
             <p class="pres-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
@@ -359,35 +395,35 @@
     <div class="counters">
 
         <div class="d-flex flex-row centr-position inner-center">
-            <div class="col-2 text-center">
+            <div class="col text-center">
                     <i class="icon-users icon-new icon-counters"></i>    
                     <p class="counters-number">3587</p>
                     <p class="countres-parametr">Satisfied Clientsti</p> 
                     <div class="line-30"></div>
 
             </div>
-            <div class="col-2 text-center">
+            <div class="col text-center">
                     <i class="icon-coffee icon-new icon-counters"></i>      
                     <p class="counters-number">3587</p>
                     <p class="countres-parametr">Satisfied Clientsti</p> 
                     <div class="line-30"></div>
 
             </div>
-            <div class="col-2 text-center">
+            <div class="col text-center">
                     <i class="icon-chat icon-new icon-counters"></i>     
                     <p class="counters-number">3587</p>
                     <p class="countres-parametr">Satisfied Clientsti</p> 
                     <div class="line-30"></div>
 
             </div>
-            <div class="col-2 text-center">
+            <div class="col text-center">
                     <i class="icon-heart icon-new icon-counters"></i>       
                     <p class="counters-number">3587</p>
                     <p class="countres-parametr">Satisfied Clientsti</p> 
                     <div class="line-30"></div>
 
             </div>
-            <div class="col-2 text-center">
+            <div class="col text-center">
                     <i class="icon-dish icon-new icon-counters"></i>      
                     <p class="counters-number">3587</p>
                     <p class="countres-parametr">Satisfied Clientsti</p> 
@@ -404,71 +440,71 @@
         </p>
 
         <div class="posts-section d-flex flex-row">
-            <div class="col-4">
-                <div class="card rel " >
-                    <img class="card-img-top" src="pics/resent-posts-1.png" alt="Card image cap">
+            <div class="col-4 col-post">
+                <div class=" rel post" >                 
+                    <div class="post-img-top">
                         <div class="card card-date">
                             <div class="card-header">30</div>
                             <div class="card-body">Sep.</div>
                         </div>
-                    <div class="card-img-shadow">
-                        
                     </div>
-
-                        <div class="card-body ">
-                                                    
-                            <h5 class="card-title text-left">Lorem ipsum dolor sit amet</h5>
-                            <p class="card-text text-left">Claritas est etiam processus dynamicus,
-                                    qui sequitur mutationem consuetudium.</p>   
-                            <p class="card-read">Read More</p>                   
-                        </div>
+                    <div class="post-info ">                                                
+                        <h5 class="post-info-title text-left">Lorem ipsum dolor sit amet</h5>
+                        <p class="post-info-text text-left">Claritas est etiam processus dynamicus,
+                                qui sequitur mutationem consuetudium.</p>   
+                        <a href="#" class="post-info-read">Read More
+                            <svg width="14" height="8">
+                                <polygon  points="9,0 14,4 9,8"   fill="#c7b299"/>
+                            </svg>       
+                        </a>           
                     </div>
                 </div>
-
-                <div class="col-4">
-                        <div class="card rel " >
-                            <img class="card-img-top" src="pics/resent-posts-1.png" alt="Card image cap">
-                                <div class="card card-date">
-                                    <div class="card-header">30</div>
-                                    <div class="card-body">Sep.</div>
-                                </div>
-                            <div class="card-img-shadow">
-                                
-                            </div>
-        
-                                <div class="card-body ">
-                                                            
-                                    <h5 class="card-title text-left">Lorem ipsum dolor sit amet</h5>
-                                    <p class="card-text text-left">Claritas est etiam processus dynamicus,
-                                            qui sequitur mutationem consuetudium.</p>   
-                                    <p class="card-read">Read More</p>                   
-                                </div>
-                            </div>
+            </div>
+            <div class="col-4 col-post">
+                <div class=" rel post" >                 
+                    <div class="post-img-top">
+                        <div class="card card-date">
+                            <div class="card-header">30</div>
+                            <div class="card-body">Sep.</div>
                         </div>
-                        <div class="col-4">
-                                <div class="card rel " >
-                                    <img class="card-img-top" src="pics/resent-posts-1.png" alt="Card image cap">
-                                        <div class="card card-date">
-                                            <div class="card-header">30</div>
-                                            <div class="card-body">Sep.</div>
-                                        </div>
-                                    <div class="card-img-shadow">
-                                        
-                                    </div>
-                
-                                        <div class="card-body ">
-                                                                    
-                                            <h5 class="card-title text-left">Lorem ipsum dolor sit amet</h5>
-                                            <p class="card-text text-left">Claritas est etiam processus dynamicus,
-                                                    qui sequitur mutationem consuetudium.</p>   
-                                            <p class="card-read">Read More</p>                   
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="post-info ">                                                
+                        <h5 class="post-info-title text-left">Lorem ipsum dolor sit amet</h5>
+                        <p class="post-info-text text-left">Claritas est etiam processus dynamicus,
+                                qui sequitur mutationem consuetudium.</p>   
+                        <a href="#" class="post-info-read">Read More
+                            <svg width="14" height="8">
+                                <polygon  points="9,0 14,4 9,8"   fill="#c7b299"/>
+                            </svg>       
+                        </a>                  
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-post">
+                <div class=" rel post" >                 
+                    <div class="post-img-top">
+                        <div class="card card-date">
+                            <div class="card-header">30</div>
+                            <div class="card-body">Sep.</div>
+                        </div>
+                    </div>
+                    <div class="post-info ">                                                
+                        <h5 class="post-info-title text-left">Lorem ipsum dolor sit amet</h5>
+                        <p class="post-info-text text-left">Claritas est etiam processus dynamicus,
+                                qui sequitur mutationem consuetudium.</p>   
+                        <a href="#" class="post-info-read">Read More
+                            <svg width="14" height="8">
+                                <polygon  points="9,0 14,4 9,8"   fill="#c7b299"/>
+                            </svg>       
+                        </a>                    
+                    </div>
+                </div>
+            </div>
+               
         </div>
-        <div class="mx-auto  arrow-block">
-                <i class="icon-left icon-new icon-counters"></i>  
-                <i class="icon-right icon-new icon-counters"></i>  
+        <div class="mx-auto  arrow-block align-content-between">
+                <i class="icon-left icon-post icon-new"></i>  
+                <i class="icon-right icon-new icon-post"></i>  
         </div>
         
     </div>
@@ -493,7 +529,11 @@
                         <p class="text-footer">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
                             nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                             Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
-                            <a href="#">Read More</a> arrow
+                            <a href="#" class="footer-link">Read More</a> 
+                            <svg width="5" height="8">
+                                <polygon points="0,0 5,4 0,8"
+                                fill="#d1d1d1"/>
+                            </svg>
 
 
             </div>
@@ -501,32 +541,39 @@
             <div class="col-3">
                     <p class="footer-title">Recent Posts</p>
                     <div class="post">
-                        <p class="footer-post-date">September 08, 2015</p>
+                        <p class="footer-post-time">September 08, 2015</p>
                         <p class="footer-post-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
                     </div>
+
                     <div class="post">
-                            <p class="footer-post-date">September 08, 2015</p>
+                            <p class="footer-post-time">September 08, 2015</p>
                             <p class="footer-post-text"> Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
                     </div>
                     <div class="post">
-                        <p class="footer-post-date">September 08, 2015</p>
-                        <pclass="footer-post-text">Claritas est etiam processus dynamicus, 
+                        <p class="footer-post-time">September 08, 2015</p>
+                        <p class="footer-post-text">Claritas est etiam processus dynamicus, 
                             qui sequitur mutationem per seacula quarta decima</p>
                     </div>
                     
             </div>
             <div class="col-3">
                 <p class="footer-title">Our Twitter</p>
-                <p> <span>@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
-                3 mins ago
-                <p>Mirum est #envato notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
-                5 hours ago
-                <p>Soluta nobis option <a href=""> bit.ly/1Hniso7</a> </p>
-                20 days ago
+                <div class="post">
+                    <p class="twitter-post footer-post-text"> <span class="twitter-post-alt">@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                    <p class="twitter-time footer-post-time"> 3 mins ago</p>
+                </div>
+                <div class="post">
+                    <p class="twitter-post footer-post-text">Mirum est  <span class="twitter-post-alt">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                    <p class="twitter-time footer-post-time">5 hours ago</p>
+                </div>
+                <div class="post">
+                    <p class="twitter-post footer-post-text">Soluta nobis option <a href="#" class="twitter-link"> bit.ly/1Hniso7</a> </p>
+                    <p class="twitter-time footer-post-time">20 days ago</p>
+                </div>
             </div>
             <div class="col-3">
                 <p class="footer-title">Dribbble Widget</p>
-                <div class="d-flex flex-row  flex-wrap align-content-beetwen">
+                <div class="d-flex flex-row  flex-wrap justify-content-between align-items-beetwen dribbble-widget">
                     <col-6><img src="pics/footer-1.png" alt=""></col-6>
                     <col-6><img src="pics/footer-2.png" alt=""></col-6>
                     <col-6><img src="pics/footer-3.png" alt=""></col-6>
@@ -534,9 +581,28 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">
-                Copyright © 2015 Waxom   |   Privacy Policy   |   FAQ   |   Support
-                Designed by ThemeFire   |   Only on Envato Market
+        <div class="copyright ">
+            <div class="d-flex flex-row justify-content-between  centr-position">
+                    <div class="col-auto">
+                           
+                        Copyright © 2015 <a href="#" class="copyright-name-company ">Waxom</a>    
+                        <span class="vertical-line">&#124;</span>
+                        <a href="#" class="copyright-link">Privacy Policy </a>  
+                        <span class="vertical-line">&#124;</span>
+                        <a href="#" class="copyright-link">FAQ</a>    
+                        <span class="vertical-line">&#124;</span> 
+                        <a href="#" class="copyright-link">Support</a> 
+                    </div>
+                    <div class="col-auto">
+                        Designed by <a href="#" class="copyright-link-alt">ThemeFire</a>   
+                        <span class="vertical-line">&#124;</span>
+                        Only on <a href="#" class="copyright-link-alt">Envato Market</a> 
+                    </div>
+
+            </div>
+            
+               
+                
         </div>
     </footer>
 
