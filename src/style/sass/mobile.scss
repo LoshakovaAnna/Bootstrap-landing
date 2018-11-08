@@ -244,12 +244,23 @@
             width: 90%;
         }
         .post{
+            display: block;
+            margin:  0 auto;
             margin-bottom: 10px;
-        }
+
+            max-width: 100%;
+            height: auto;
+            .post-img-top{
+                max-width: 370px;
+                
+                max-height: 220px;       
+                }
+          }
     }
-    
-    .partners,
-    .logo-row,
+
+    .partners{
+
+    }
     footer{
         display: none;
     }

@@ -511,7 +511,7 @@
             }
         }
         .post-info{
-            width: 370px;
+            max-width: 370px;
             padding: 30px;
             .post-info-title{               
                 color: #555555;                
@@ -586,11 +586,15 @@
     background-blend-mode:multiply;   
     background-repeat: no-repeat;
     background-size: cover;
-}
-.logo-row{
-    height: 100%;
-}
+    background-position: center;
 
+    .logo-row{
+        height: 100%;
+        img{
+            max-width: 90%;
+        }
+    }
+}
 footer{
     padding-top: 80px;
     background-color: #191919;
