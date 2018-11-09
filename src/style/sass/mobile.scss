@@ -19,17 +19,16 @@
         .navbar-toggler{
             color: #ffffff;
         }
-        .subtitle{
-            padding-top:30px;
-            font-size: 22px;
-        }
+        
         .title{
             font-size: 30px;
             margin-top: 60px;
+            height: 90px;
         }
         .text{
             font-size: 10px;
             line-height: 14px;
+            height: 85px;
         }
         .btn-get-started{
             width: 120px;
@@ -47,21 +46,12 @@
             display: none;
         }
 
-       /* .icon-slider-left, .icon-slider-right{
-            display: block;
-        }
-        .carousel-control-prev, .carousel-control-next {
-            width: 8%;
-        }
-        .carousel-control-prev {
-            left:10px;
-        }*/
+       
         .carousel {
-            width: 90%;
+          
             .subtitle{
                 display: none;
             }
-        //    margin-left: 10px;
         }
     }
     .services{
@@ -258,10 +248,22 @@
           }
     }
 
-    .partners{
-
-    }
     footer{
-        display: none;
+       
+        padding-top: 40px;
+        .copyright{
+            height: auto;
+            
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-top: 35px;
+            
+            font-size: 10px;
+            line-height: 20px;
+            .vertical-line{
+                margin-left: 6px;
+                margin-right: 6px;
+            }
+        }
     }
 }
