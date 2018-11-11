@@ -65,12 +65,14 @@
     border-radius: 3px;
     background-color: #998675;
     
+
     color: #ffffff;
     font-family: "Raleway-ExtraBold";
     font-size: 14px;
-    line-height: 23px;
+    line-height: 53px;
     text-transform: uppercase;
     margin-top: 50px;
+    cursor: pointer;
 }
 .btn-get-started:hover{
     background-color: #111111;
@@ -247,6 +249,7 @@
     }
     .nav-item:hover{       
         background-color: #998675;
+        border-color: #998675;
         .nav-link{
             color: #ffffff;
         }
@@ -413,7 +416,6 @@
         margin-left: 50px;
         margin-right: 29px;
         margin-bottom: 12px;
-        margin-top: 6px;
     }    
 }
 
@@ -458,7 +460,6 @@
         font-size: 30px;
     }
     .text-recent-posts{
-       // width: 757px;
         color: #8c8c8c;
         font-family: "Montserrat-Light";
         font-size: 16px;
@@ -620,6 +621,7 @@ footer{
         margin-bottom: 25px;
     }
     .post{
+        cursor: pointer;
         margin-top: 17px;
         padding-bottom: 21px;
         line-height: 20px;    

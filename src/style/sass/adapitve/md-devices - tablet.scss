@@ -1,7 +1,5 @@
-
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
     .header{
         .name-company{    
             font-size: 28px;
@@ -17,14 +15,15 @@
 
         }
         .title, .text{
-            margin-bottom: 30px;
+            margin-bottom: 26px;
         }
         .text, 
         .list-item{
             line-height: 26px;
         }
         .icon-list{
-            margin-left: 28px;
+            margin-left: 20px;
+            margin-right: 15px;
         }
     }
 
