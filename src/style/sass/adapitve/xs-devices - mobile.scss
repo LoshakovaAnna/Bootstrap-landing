@@ -20,40 +20,38 @@
             color: #ffffff;
         }
         
-        .title{
-            font-size: 30px;
-            margin-top: 60px;
-            height: 90px;
-        }
-        .text{
-            font-size: 10px;
-            line-height: 14px;
-            height: 85px;
-        }
-        .btn-get-started{
-            width: 120px;
-            height: 35px;
-            font-size: 10px;
-            line-height: 23px;
-            margin-top: 30px;
-        }
-        .slide-header{
-            width: 70%;
-            height: 340px;
-            margin: 0 auto;
-        }
-        .control-prev, .control-next{
-            display: none;
-        }
-
-       
         .carousel {
-          
-            .subtitle{
-                display: none;
+            .slide-header{
+                width: 70%;
+                height: 340px;
+                margin: 0 auto;
+                .subtitle{
+                    display: none;
+                }
+                .title{
+                    font-size: 30px;
+                    margin-top: 60px;
+                    height: 90px;
+                }
+                .text{
+                    font-size: 10px;
+                    line-height: 14px;
+                    height: 85px;
+                }
+                .btn-get-started{
+                    width: 120px;
+                    height: 35px;
+                    font-size: 10px;
+                    line-height: 23px;
+                    margin-top: 30px;
+                }                
             }
+            .control-prev, .control-next{
+                display: none;
+            }        
         }
     }
+    
     .services{
         
         padding-top: 40px;
@@ -95,13 +93,13 @@
     
     .text-boxes{
         height: 220px;
+        text-align: center;
         .tb-title{
             font-size: 20px;
-            text-align: center;
+            
         }
         .tb-text{
             font-size: 14px;
-            text-align: center;
         }
         .btn-purchase{
             width: 140px;
@@ -111,6 +109,7 @@
             margin-bottom: 25px;
         }
     }
+
     .latest-projects{
         
         padding-top: 40px;
@@ -226,8 +225,7 @@
         }
     }
 
-    .recent-posts{
-        
+    .recent-posts{        
         padding-top: 30px;
         padding-bottom: 30px;
         .text-recent-posts{
@@ -241,8 +239,7 @@
             max-width: 100%;
             height: auto;
             .post-img-top{
-                max-width: 370px;
-                
+                max-width: 370px;                
                 max-height: 220px;       
                 }
           }
@@ -252,8 +249,7 @@
        
         padding-top: 40px;
         .copyright{
-            height: auto;
-            
+            height: auto;            
             padding-top: 25px;
             padding-bottom: 25px;
             margin-top: 35px;

@@ -1,0 +1,21 @@
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1229.98px) { 
+ 
+    .recent-posts{
+        .post{
+            width: 310px;
+            .post-img-top{
+                height: 184px;
+            }
+           .post-info{
+            
+                padding: 15px;
+               
+            }
+        }
+    } 
+    
+    .footer-img{
+        width: 120%;
+    }
+}

@@ -1,0 +1,116 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header{
+        .navbar-toggler{
+            color: #ffffff;
+        }
+        .slide-header{
+            
+            width: 70%;
+            margin: 0 auto;
+            .subtitle{
+                padding-top: 230px;
+            }
+        }
+    }
+
+    .text-boxes{
+        height: auto;
+        text-align: center;
+        .tb-title{
+            font-size: 27px;
+            
+        }
+        .btn-purchase{
+            margin: 0 auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .latest-projects{
+        .nav-item{       
+            margin-bottom: 10px;
+        }
+        .card-section{
+            height: auto;
+            .card{
+                margin: 10px auto;
+            }
+        }
+    } 
+
+    .exelent-for-mobile-dev {
+        height: auto;
+        padding-top:50px;
+        padding-bottom: 30px;
+        .title{
+            margin-top: 0;
+        }    
+        .icon-list{
+            margin-left: 5px;
+            margin-right: 7px;
+            margin-bottom: 12px;
+            margin-top: 6px;
+        }    
+    }
+    
+    .counters{        
+        height: auto;
+        padding-top: 20px;
+        .icon-counters{
+            font-size: 20px;
+        }
+        .counters-number{
+            margin-top: 10px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .countres-parametr{
+            font-size: 10px;
+            line-height: 14px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .line-30{
+            margin-bottom: 20px;
+        }
+    }
+
+    .recent-posts{
+        .text-recent-posts{
+            width: 90%;
+        }
+        .post{
+            width: 255px;
+            height: 290px;
+            .post-img-top{
+                height: 152px;
+            }
+            .post-info{                
+                padding: 15px;
+                .post-info-title{     
+                    font-size: 17px;
+                }
+                .post-info-text{   
+                    padding-top: 12px;
+                    padding-bottom: 20px;
+                    font-size: 11px;
+                    line-height: 20px;
+                }
+                .post-info-read{
+                    font-size: 12px;       
+                }   
+            }
+        }
+    }
+        
+    footer{
+        .footer-img{
+            width: 100%;
+        }
+        .dribbble-widget{
+            height: auto;
+        }    
+    }
+}

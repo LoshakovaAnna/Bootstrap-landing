@@ -1,0 +1,64 @@
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .header{
+        .name-company{    
+            font-size: 28px;
+        }        
+        .nav-link{   
+            font-size: 12px;
+        }
+    }
+    
+    .exelent-for-mobile-dev {
+        .title{
+            margin-top: 66px;
+
+        }
+        .title, .text{
+            margin-bottom: 30px;
+        }
+        .text, 
+        .list-item{
+            line-height: 26px;
+        }
+        .icon-list{
+            margin-left: 28px;
+        }
+    }
+
+    .recent-posts{
+        .post{
+            width: 235px;
+            height: 300px;
+            .post-img-top{
+                height: 140px;
+            }
+            .post-info{            
+                padding: 20px;
+                .post-info-title{     
+                    font-size: 17px;
+                }
+                .post-info-text{   
+                    padding-top: 12px;
+                    padding-bottom: 20px;
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+                .post-info-read{
+                    font-size: 12px;       
+                }   
+            }
+        }
+    }
+        
+    footer{
+        .footer-img{
+            width: 100%;
+        }
+        .dribbble-widget{
+            height: auto;
+        }
+    }        
+}

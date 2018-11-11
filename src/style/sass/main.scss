@@ -170,7 +170,8 @@
     }
     .realization-img{
         display: block;
-    }
+        max-width: 100%;
+        }
 }
 
 
@@ -222,7 +223,7 @@
         font-size: 30px;
     }
     .lt-text{
-        width: 757px;
+      
         color: #8c8c8c;
         font-family: 'Montserrat-Light';
         font-size: 16px;
@@ -457,7 +458,7 @@
         font-size: 30px;
     }
     .text-recent-posts{
-        width: 757px;
+       // width: 757px;
         color: #8c8c8c;
         font-family: "Montserrat-Light";
         font-size: 16px;
@@ -692,4 +693,7 @@ footer{
 }
 
 
-@import'mobile.scss';
+@import './adapitve/xs-devices\ -\ mobile.scss';
+@import './adapitve/sm-devices\ \ -\ landscape\ phones.scss';
+@import './adapitve/md-devices\ -\ tablet.scss';
+@import './adapitve/lg-devices\ -desktops.scss';
